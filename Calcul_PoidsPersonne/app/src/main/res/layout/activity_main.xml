@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/dan"
+    android:padding="33sp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RadioGroup
+        android:gravity="center"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textColor="#000000">
+
+        <RadioButton
+            android:layout_marginLeft="12sp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Homme         "
+            android:checked="true"
+            android:textSize="20sp"
+            android:id="@+id/RAD_MAN"/>
+        />
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Femme           "
+            android:textSize="20sp"
+            android:id="@+id/RAD_FEM"
+            android:checked="true"/>
+        />
+
+    </RadioGroup>
+
+
+    />
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="Taille : "
+            android:textColor="#000000"
+            android:textSize="18dp"
+
+            />
+
+        <EditText
+
+            android:layout_marginLeft="20dp"
+            android:id="@+id/Ext_TAIL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_gravity="center"
+            android:hint="Tapez la hauteur  "
+
+            android:inputType="numberDecimal" />
+        />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="Poids : "
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/Edt_POID_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="#FFFFFF"
+            android:textSize="15dp"
+            android:inputType="numberDecimal"
+            android:textColor="#000000" />
+        />
+
+    </LinearLayout>
+
+
+<LinearLayout
+
+android:layout_marginLeft="50dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculer"
+        android:id="@+id/BTN_CALC"
+        android:textColor="#000000"
+        android:background="#7FFF00"/>
+
+    />
+    <Button
+        android:layout_marginLeft="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Annuler"
+        android:id="@+id/BTN_AN"
+        android:textColor="#000000"
+        android:background="#7FFF00"
+
+        />
+
+
+</LinearLayout>
+
+</LinearLayout>

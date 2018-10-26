@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="#808000">
+
+
+    <TextView
+
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Calcul de Moyenne"
+        android:background="@color/Col"
+        />
+
+    <LinearLayout
+
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:background="#555555">
+
+        <EditText
+            android:id="@+id/Edit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entre la primiere note"
+            android:inputType="numberDecimal"
+            android:textSize="20dp"
+
+
+            />
+
+        <EditText
+            android:id="@+id/Edit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entre la deuxieme note"
+            android:inputType="numberDecimal"
+            android:textSize="20dp"
+
+
+            />
+
+        <EditText
+            android:id="@+id/Edit3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entre la troisieme note"
+            android:inputType="numberDecimal"
+            android:textSize="20dp"
+
+
+            />
+
+
+        <Button
+            android:id="@+id/btnCalculer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:text="Calculer le moyenne"
+            android:textSize="15dp"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:text="La moyenne calcule est : "
+            android:textColor="#151015"
+            android:textSize="26dp"
+
+            />
+
+        <EditText
+            android:id="@+id/EditResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="20dp"
+
+
+            />
+  <Button
+
+            android:id="@+id/btntwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Fermer l'activity"
+            android:background="#8B008B"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

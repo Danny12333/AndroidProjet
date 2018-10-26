@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+   >
+
+
+
+    <TextView
+        android:layout_marginTop="12dp"
+                android:text="Les items précédés d'un V ouvrent un sous-menu" />
+    <View
+                android:layout_height="2dip"
+                android:background="#ea0f0f"/>
+
+    <TableRow
+        android:layout_width="354dp"
+        android:layout_height="27dp"
+        >
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="N'ouvre pas un sous-menu"
+            android:textSize="16dp"
+
+
+            />
+
+        <TextView
+            android:layout_width="59dp"
+            android:padding="3dip"
+            android:text=" Non !"
+            android:gravity="center"
+            />
+    </TableRow>
+
+        <TableRow >
+
+            <TextView
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:text="V"
+                android:gravity="center"
+                />
+        <TextView
+
+            android:text="Ouvre un sous-menu"
+                android:layout_column="1"
+                android:padding="3dip" />
+
+            <TextView
+
+                android:layout_width="199dp"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="Là si !" />
+        </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="#e93d3d" />
+
+         <TableRow>
+
+             <TextView
+                 android:text="V"
+                 android:gravity="center"
+                 />
+
+             <TextView
+                 android:textSize="16dp"
+
+                 android:text="Ouvre un sous-menu"
+            android:padding="3dip" />
+        </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090" />
+         <TableRow>
+
+             <TextView
+                 android:layout_width="367dp"
+                 android:layout_height="match_parent"
+                 android:layout_column="1"
+                 android:layout_span="2"
+                 android:padding="3dip"
+                 android:textSize="16dp"
+
+                 android:text="Cet item s'étend sur deux colonnes, cool hein ?" />
+
+        </TableRow>
+
+
+</TableLayout>

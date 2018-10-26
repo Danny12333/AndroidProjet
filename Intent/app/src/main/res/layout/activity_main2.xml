@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="Nous avons changé d'activite!"
+        android:textSize="27dp"
+        android:gravity="center"/>
+
+
+    <LinearLayout
+
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/goodColor1">
+
+        <Button
+            android:id="@+id/btnOne"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="choix 1" />
+
+        <Button
+            android:id="@+id/btntwo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Choix 2" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

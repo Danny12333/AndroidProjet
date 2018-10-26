@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#4405b9d9"
+    android:padding="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N1 : "
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Edit_N1"
+            android:hint="Saisir un nombre"
+            android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+          android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N2 : "
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Edit_N2"
+            android:hint="Saisir un nombre"
+            android:inputType="numberDecimal"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resultat : "
+            android:textSize="25dp"
+
+            />
+
+        <TextView
+            android:id="@+id/Txt_Result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:inputType="numberDecimal"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Calculer"
+            android:id="@+id/Btn_Calcul"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Annuler"
+            android:id="@+id/Btn_Annul"/>
+
+        <RadioGroup
+            android:layout_marginLeft="22dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Rad_Som"
+                android:text="Somme"
+                android:checked="true"
+
+
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Rad_Subtrat"
+                android:text="Substration"
+                android:checked="true"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Rad_Produit"
+                android:checked="true"
+
+                android:text="Produit"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Rad_Div"
+                android:text="Division"
+                android:checked="true"
+
+
+                />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
